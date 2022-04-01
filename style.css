@@ -16,7 +16,6 @@ body {
     height: 50%;
     max-height: 480px;
     border-radius: 20px;
-    /* overflow: auto; */
 }
 
 .head_contacts h2 {
@@ -89,7 +88,6 @@ body {
     word-wrap: break-word;
     background-color: rgb(25, 195, 204);
     box-shadow: 0 0 10px #222222;
-   
 }
 
 .wrapper_name span,
@@ -106,11 +104,9 @@ body {
     height: 40px;
     background-color: rgb(36, 5, 36);
     color: white;
-
 }
 
 .edit {
-    
     cursor: pointer;
     transition: all 0.5s linear;
     width: 65px;

@@ -1,8 +1,7 @@
 class User {
     constructor(person) {
-        // if (person.id > 0)
+        
         this.data = {
-            
             id: person.id,
             name: person.name || '---',
             email: person.email || '---',
@@ -12,7 +11,6 @@ class User {
     }
 
     edit(person) {
-        
         Object.assign(this.data, person);
     }
 
@@ -33,7 +31,6 @@ class Contacts {
         if (newUser.data) {
             newUser.data.id = ++this.lastId;
             this.data.push(newUser);
-
             return true;
         }
 
@@ -98,11 +95,6 @@ class ContactsApp extends Contacts {
         divPhone.contentEditable = 'true';
         divAddress.contentEditable = 'true';
         divEmail.contentEditable = 'true';
-
-        // divName.setAttribute('contentEditable', true);
-        // divPhone.setAttribute('contentEditable', true);
-        // divAddress.setAttribute('contentEditable', true);
-        // divEmail.setAttribute('contentEditable', true);
 
         const save = _ => {
             divName.contentEditable = 'false';
