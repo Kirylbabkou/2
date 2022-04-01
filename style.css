@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head_contacts {
+    width: 60%;
+    max-width: 380px;
+    margin: 0 auto;
+    background-color: rgb(233, 204, 108);
+    padding-bottom: 20px;
+    height: 50%;
+    max-height: 480px;
+    border-radius: 20px;
+    /* overflow: auto; */
+}
+
+.head_contacts h2 {
+    color: rgb(13, 92, 66);
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 20px 15px 20px;
+    background-color: rgb(163, 122, 60);
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.form input {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    outline-style: double;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.form .submit {
+    border-radius: 5px;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    background-color: rgb(199, 195, 195);
+    color: rgb(13, 92, 66);
+}
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.listShow {
+    position: relative;
+    margin-bottom: 10px;
+    border: 1px solid rgb(25, 27, 128);
+    border-radius: 20px;
+    width: 60%;
+    max-width: 300px;
+    margin: 0 auto 20px auto;
+    overflow: hidden;
+}
+
+.form .submit:hover {
+    background-color: rgb(13, 92, 66);
+    color: #fff;
+}
+
+ 
+.wrapper_name,
+.wrapper_phone,
+.wrapper_address,
+.wrapper_email {
+    display: flex;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    word-wrap: break-word;
+    background-color: rgb(25, 195, 204);
+    box-shadow: 0 0 10px #222222;
+   
+}
+
+.wrapper_name span,
+.wrapper_phone span,
+.wrapper_address span,
+.wrapper_email span {
+    margin-right: 25px; 
+}
+
+.closeListElem {
+
+    margin-left: 20px;
+    width: 65px;
+    height: 40px;
+    background-color: rgb(36, 5, 36);
+    color: white;
+
+}
+
+.edit {
+    
+    cursor: pointer;
+    transition: all 0.5s linear;
+    width: 65px;
+    height: 40px;
+    background-color: #545;
+    color: white;
+    margin-left: 30px;
+}
